@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk cikuman </title>
+
+  <style>
+    
+body {
+
+  background-image: url('background/background1.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+background-color:hotpink 
+  margin: 0;
+  height: 100vh;
+  
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 30px 25px;
+  border-radius: 20px;
+  max-width: 320px;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+
+  animation: fadeUp 1.2s ease;
+
+}
+.stiker{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 120px;
+}
+
+.card h1 {
+  margin-top: 0;
+  color: #d63384;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+
+
+
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.hidden {
+  display: none;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #e91e63;
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.btn {
+  display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #ff6fae;
+      color: white;
+      text-decoration: none;
+      border-radius: 15px;
+      font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ff5f8f;
+}
+
+  </style>
+
+
+
+</head>
+<body>
+
+<div class="card">
+  <h1>Hai Kamu ❤️</h1>
+  <p>
+    Ini aku bikin ini untuk cikuman,
+    <br>
+    by Mr.R
+  </p>
+
+
+</div>
+
+
+<audio controls loop>
+  <source src="laguweb/lagu1.mp3" type="audio/mpeg">
+</audio> 
+
+
+<div class="card">
+  <h3>selamatty yaaa💖</h3>
+  <p>do you wanna 
+    next?
+  </p>
+
+<img src="img/kitty.gif" class="stiker">
+
+<a href="formygf2.html" class="btn">Lanjut 💕</a>
+
+</div>
+
+<script>
+
+ 
+  function pindahHalaman() {
+    window.location.href = "formygf2.html";
+  }
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
